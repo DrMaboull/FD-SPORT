@@ -29,6 +29,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     $(function(){
       $("#includeHeader").load("include/header.html"); 
     });
+    $(function(){
+      $("#includeSimilaryProducts").load("include/similaryProducts.html"); 
+    });
     </script>
     <!-- Custom Theme files -->
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
@@ -38,6 +41,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link rel="stylesheet" href="css/jquery.desoslide.css">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
     <link href="css/font-awesome.css" rel="stylesheet">
+
+    <link href="css/product.css" rel="stylesheet">
     <!-- font-awesome icons -->
     <!-- //Custom Theme files -->
     <!-- web-fonts -->
@@ -50,44 +55,47 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- HEADER -->
     <div id="includeHeader"></div>
 
-
-    <!-- PRODUCT PAGE -->
-    <div class="row">
-        <div class="col-md-12">
+    <div class="container">
+        <!-- FIL D'ARIANNE -->
+        <div class="arianne hidden-xs">
+            <ul id="breadcrumbs-one">
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Maillots</a></li>
+                <li><a href="" class="current">Football</a></li>
+            </ul>
         </div>
 
+        <!-- DESCRIPTION PRODUIT -->
         <div class="col-md-6 col-xs-12">
-            <img src="http://www.boutiquedesverts.fr/18142-large_default/maillot-asse-domicile-2017-2018-le-coq-sportif.jpg">
+            <a href="http://www.boutiquedesverts.fr/18142-large_default/maillot-asse-domicile-2017-2018-le-coq-sportif.jpg" data-lightbox-title="Kittens!">
+                <img src="http://www.boutiquedesverts.fr/18142-large_default/maillot-asse-domicile-2017-2018-le-coq-sportif.jpg" />
+            </a>
         </div>
 
-        <div class="col-md-6 col-xs-12">
-            <div class="row">
-                <div class="col-md-12"><h1>TITRE</h1>
+        <div class="product-infos col-md-6 col-xs-12">
+            <div class="col-md-12"><h1>Maillot ASSE</h1>
+            </div>
+            <div class="col-md-12"><h2>80 €</h2>
+            </div>
+            <div class="col-md-12"><h2>Couleur</h2>
+                <div class="radio-inline">
+                    <label><input type="radio" name="optradio">Rouge</label>
                 </div>
-                <div class="col-md-12"><h2>PRIX</h2>
+                <div class="radio-inline">
+                    <label><input type="radio" name="optradio">Bleu</label>
                 </div>
-                <div class="col-md-12"><h2>Couleur</h2>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
-                        Rouge
-                        </label>
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
-                        Bleur
-                        </label>
-                    </div>
                 </div>
-                <div class="col-md-12"><h2>DESCRIPTION</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nulla quam, euismod nec fermentum non, lacinia at nisl. Integer sodales a elit in efficitur. Aliquam erat volutpat. Sed egestas consequat mi nec aliquet. Mauris sed nunc venenatis, lobortis est eget, rhoncus libero. Nullam id maximus magna. Aliquam et fermentum neque. Cras tincidunt sem malesuada, semper leo at, ornare justo. Aliquam dignissim maximus ex. 
-                </div>
+            <div class="col-md-12"><h2>DESCRIPTION</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nulla quam, euismod nec fermentum non, lacinia at nisl. Integer sodales a elit in efficitur. Aliquam erat volutpat. Sed egestas consequat mi nec aliquet. Mauris sed nunc venenatis, lobortis est eget, rhoncus libero. Nullam id maximus magna. Aliquam et fermentum neque. Cras tincidunt sem malesuada, semper leo at, ornare justo. Aliquam dignissim maximus ex. 
+            </div>
+            <div class="col-md-12">
+                <i class="fas fa-cart-plus"></i>        
             </div>
         </div>
     </div>
 
-
-
-
+    <!-- PRODUITS SIMILAIRES -->
+    <div id="includeSimilaryProducts"></div>
 
    
     <!-- //bootstrap-pop-up for login and register-->
