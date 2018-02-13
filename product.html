@@ -1,0 +1,234 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Revenue Banking Category Responsive website Template | Home :: w3layouts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Revenue Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+    SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+    <script> 
+    $(function(){
+      $("#includeHeader").load("include/header.html"); 
+    });
+    $(function(){
+      $("#includeSimilaryProducts").load("include/similaryProducts.html"); 
+    });
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <!-- gallery smoothbox -->
+    <link rel="stylesheet" href="css/smoothbox.css" type='text/css' media="all" />
+    <!-- team deoslide -->
+    <link rel="stylesheet" href="css/jquery.desoslide.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/font-awesome.css" rel="stylesheet">
+
+    <link href="css/product.css" rel="stylesheet">
+    <!-- font-awesome icons -->
+    <!-- //Custom Theme files -->
+    <!-- web-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <!-- //web-fonts -->
+</head>
+
+<body>
+    
+    <!-- HEADER -->
+    <div id="includeHeader"></div>
+
+    <div class="container">
+        <!-- FIL D'ARIANNE -->
+        <div class="arianne hidden-xs">
+            <ul id="breadcrumbs-one">
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Maillots</a></li>
+                <li><a href="" class="current">Football</a></li>
+            </ul>
+        </div>
+
+        <!-- DESCRIPTION PRODUIT -->
+        <div class="col-md-6 col-xs-12">
+            <a href="http://www.boutiquedesverts.fr/18142-large_default/maillot-asse-domicile-2017-2018-le-coq-sportif.jpg" data-lightbox-title="Kittens!">
+                <img src="http://www.boutiquedesverts.fr/18142-large_default/maillot-asse-domicile-2017-2018-le-coq-sportif.jpg" />
+            </a>
+        </div>
+
+        <div class="product-infos col-md-6 col-xs-12">
+            <div class="col-md-12"><h1>Maillot ASSE</h1>
+            </div>
+            <div class="col-md-12"><h2>80 €</h2>
+            </div>
+            <div class="col-md-12"><h2>Couleur</h2>
+                <div class="radio-inline">
+                    <label><input type="radio" name="optradio">Rouge</label>
+                </div>
+                <div class="radio-inline">
+                    <label><input type="radio" name="optradio">Bleu</label>
+                </div>
+                </div>
+            <div class="col-md-12"><h2>DESCRIPTION</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nulla quam, euismod nec fermentum non, lacinia at nisl. Integer sodales a elit in efficitur. Aliquam erat volutpat. Sed egestas consequat mi nec aliquet. Mauris sed nunc venenatis, lobortis est eget, rhoncus libero. Nullam id maximus magna. Aliquam et fermentum neque. Cras tincidunt sem malesuada, semper leo at, ornare justo. Aliquam dignissim maximus ex. 
+            </div>
+            <div class="col-md-12">
+                <i class="fas fa-cart-plus"></i>        
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUITS SIMILAIRES -->
+    <div id="includeSimilaryProducts"></div>
+
+   
+    <!-- //bootstrap-pop-up for login and register-->
+
+    <!-- js -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!-- //js -->
+    <!-- about numscroller -->
+    <script src="js/numscroller-1.0.js"></script>
+    <!-- //about numscroller -->
+    <!-- banner Slider starts Here -->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 3
+            $("#slider3").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: false,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+
+        });
+    </script>
+    <!-- //banner slider script ends -->
+    <!-- sign in and signup pop up toggle script -->
+    <script>
+        $('.toggle').click(function () {
+            // Switches the Icon
+            $(this).children('i').toggleClass('fa-pencil');
+            // Switches the forms  
+            $('.form').animate({
+                height: "toggle",
+                'padding-top': 'toggle',
+                'padding-bottom': 'toggle',
+                opacity: "toggle"
+            }, "slow");
+        });
+    </script>
+    <!-- sign in and signup pop up toggle script -->
+    <!-- team desoslide-JavaScript -->
+    <script src="js/jquery.desoslide.js"></script>
+    <script>
+        $('#demo1_thumbs').desoSlide({
+            main: {
+                container: '#demo1_main_image',
+                cssClass: 'img-responsive'
+            },
+            effect: 'sideFade',
+            caption: true
+        });
+    </script>
+    <!-- //team desoslide-JavaScript -->
+    <!-- Flexslider-js for-testimonials -->
+    <script src="js/jquery.flexisel.js"></script>
+    <script>
+        $(window).load(function () {
+            $("#flexiselDemo1").flexisel({
+                visibleItems: 1,
+                animationSpeed: 1000,
+                autoPlay: false,
+                autoPlaySpeed: 3000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 1
+                    }
+                }
+            });
+
+        });
+    </script>
+    <!-- //Flexslider-js for-testimonials -->
+    <!-- start-smooth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="js/SmoothScroll.min.js"></script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- gallery smoothbox -->
+    <script src="js/smoothbox.jquery2.js"></script>
+    <!-- //gallery smoothbox -->
+    <!-- Bootstrap core JavaScript
+ ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
