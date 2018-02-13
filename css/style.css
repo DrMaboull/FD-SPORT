@@ -6,6 +6,7 @@
 
 html,
 body {
+    overflow-x: hidden;
     margin: 0;
     background: #fff;
     font-family: 'Source Sans Pro', sans-serif;
@@ -2835,6 +2836,15 @@ p.footer-class a:hover {
     .form-module input[type="submit"] {
         padding: 7px 15px;
     }
+}
+
+.venteFlash {
+    text-align: center;
+    background-color: #ff0e10;
+}
+
+.spaced {
+    padding-left: 20px;
 }
 
 /* -- //Responsive code -- */
